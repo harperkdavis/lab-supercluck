@@ -1,0 +1,168 @@
+body {
+    font-family: 'Rubik', sans-serif;
+    background-color: white;
+    color: #141414;
+
+    transition: color 1.0s ease;
+}
+
+.afterhours {
+    background-color: #141414;
+    color: white;
+}
+
+#area-top {
+    height: 128px;
+}
+
+#area-middle {
+    height: 100%;
+    background-color: lightgreen;
+
+    margin: 0px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -30px;
+}
+
+#area-bottom {
+    height: 100%;
+    background-color: lightgreen;
+
+    margin: 0px;
+    margin-left: -5px;
+    margin-right: -5px;
+    margin-top: -30px;
+}
+
+#area-title {
+    float: left;
+    width: 60%;
+    margin-bottom: 15px;
+}
+
+#area-clock {
+    float: right;
+}
+
+#cluck-logo {
+    float: left;
+    width: 100px;
+    margin-right: 20px; 
+    margin-bottom: -20px;
+}
+
+#cluck-title {
+    font-size: 60px;
+    font-weight: bolder;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#cluck-fortune {
+    font-size: 24px;
+    font-style: italic;
+    font-weight: lighter;
+
+    margin-top: 0px;
+    margin-bottom: -20px;
+}
+
+#cluck-clock {
+    text-align: right;
+
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    font-size: 60px;
+}
+
+#cluck-countdown {
+    text-align: right;
+
+    margin-top: 0px;
+    margin-bottom: -20px;
+
+    font-weight: lighter;
+}
+
+#top-border {
+    display: inline;
+
+    border-color: #EEEEEE;
+    color: #EEEEEE;
+    background-color: #EEEEEE;
+}
+
+.splitter {
+
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    border-right: 1px solid #eee;
+}
+
+.afterhours .splitter {
+
+    border-top: 1px solid #222;
+    border-bottom: 1px solid #222;
+    border-left: 1px solid #222;
+    border-right: 1px solid #222;
+    background-color: #141414;
+}
+
+.top-splitter {
+    position: absolute;
+    top: 120px;
+    width: 99%;
+    margin: 0;
+}
+
+.bottom-splitter {
+    position: absolute;
+    bottom: 120px;
+    width: 99%;
+    margin: 0;
+}
+
+.vertical-splitter {
+    position: absolute;
+    left: 70%;
+    border-width: 1px;
+    top: 120px;
+    bottom: 120px;
+    margin: 0;
+}
+
+
+#cluck-list {
+    position: absolute;
+    left: 5px;
+    top: 130px;
+    bottom: 130px;
+    width: 69%;
+
+    background-color: lightseagreen;
+}
+
+#cluck-bus {
+    position: absolute;
+
+    top: 130px;
+    bottom: 130px;
+    left: 71%;
+    right: 5px;
+
+
+    background-color: red;
+}
+
+#cluck-extra {
+    position: absolute;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    height: 110px;
+    background-color: salmon;
+}
