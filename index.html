@@ -5,7 +5,7 @@
     <title>SUPERCLUCK</title>
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Rubik">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Mono">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Azeret+Mono">
     <link rel="stylesheet" href="style.css">
 </head>
 <body id="body" class="">
@@ -13,7 +13,7 @@
         <div id="area-title">
             <img id="cluck-logo" src="logo.png"> 
             <h1 id="cluck-title">Lab Supercluck</h1>
-            <h2 id="cluck-fortune">More super than ever before.</h2>
+            <h2 id="cluck-fortune">Your message could be here!</h2>
         </div>
         <div id="area-clock">
             <h1 id="cluck-clock">00:00:00</h1>
@@ -27,27 +27,38 @@
         <div id="cluck-list">
             <h1 id="logged-label">Logged In</h1>
             <div id="cluck-members">
-                <div class="team-member">
-                    <img src="profile_picture.png" class="team-member-picture">
-                    <div class="team-member-info">
-                        <h2 class="team-member-label">Harper</h2>
-                        <h2 class="team-member-time">0:00:00.000</h2>
-                    </div>
-                </div>
-
             </div>
-            <div class="members-overflow">
-                <h1 id="overflow-text">+17 more</h1>
+            <div id="members-overflow">
+                <h1 id="overflow-text">+0 more</h1>
             </div>
         </div>
         <div id="cluck-bus">
+            <h2 class="transport-title">Transport</h2>
+            <div id="stop-235" class="bus-stop">
+                <h2 class="bus-stop-title">Trimet Stop 235</h2>
+                <h3 id="stop-235-arrivals">Loading Transit Data...</h3>
+            </div>
+            <div id="stop-255" class="bus-stop">
+                <h2 class="bus-stop-title">Trimet Stop 255</h2>
+                <h3 id="stop-255-arrivals">Loading Transit Data...</h3>
+            </div>
+            <div id="stop-5378" class="bus-stop">
+                <h2 class="bus-stop-title">Trimet Stop 5378</h2>
+                <h3 id="stop-5378-arrivals">Loading Transit Data...</h3>
+            </div>
         </div>
         <div class="splitter vertical-splitter"></div>
     </div>
 
     <hr class="splitter bottom-splitter">
     <div id="area-bottom">
-        <div id="cluck-extra">
+        <div id="cluck-weather">
+            <h2 id="weather-title">Weather</h2>
+            <div id="weather-boxes">
+                <div id="weather-current" class="weather-box">
+                    <h2 class="weather-box-time">Current</h2>
+                </div>
+            </div>
         </div>
     </div>
     

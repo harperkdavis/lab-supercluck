@@ -68,7 +68,7 @@ body {
 }
 
 #cluck-clock {
-    font-family: 'Pt Mono', sans-serif;
+    font-family: 'Azeret Mono', sans-serif;
 
     text-align: right;
 
@@ -156,7 +156,7 @@ body {
 
 }
 
-#cluck-extra {
+#cluck-weather {
     position: absolute;
     left: 5px;
     right: 5px;
@@ -217,7 +217,7 @@ body {
 .team-member-time {
     font-size: 28px;
     font-weight: lighter;
-    font-family: 'PT Mono', sans-serif;
+    font-family: 'Azeret Mono', sans-serif;
 
     margin-left: 2px;
     margin-top: 0px;
@@ -242,7 +242,7 @@ body {
     margin-top: 0px;
 }
 
-.members-overflow {
+#members-overflow {
 
     display: none;
 
@@ -265,5 +265,51 @@ body {
 
 #overflow-text {
     text-align: center;
+    font-size: 20px;
+}
+
+
+.transport-title {
+    margin-top: 10px;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+
+.bus-stop {
+    background-color: #eee;
+    border-radius: 5px;
+    width: 90%;
+    padding: 8px;
+    margin-bottom: 8px;
+}
+
+.bus-stop-title {
+    margin-top: 0px;
+}
+
+.afterhours .bus-stop {
+    background-color: #222;
+}
+
+#weather-title {
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+
+.weather-box {
+    width: 25%;
+    background-color: #eee;
+    height: 100px;
+    margin: 4px;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.afterhours .weather-box {
+    background-color: #222;
+}
+
+.weather-box-time {
+    margin-top: 0px;
     font-size: 20px;
 }

@@ -1,0 +1,7 @@
+                <div class="team-member">
+                    <img src="profile_picture.png" class="team-member-picture">
+                    <div class="team-member-info">
+                        <h2 class="team-member-label">Harper</h2>
+                        <h2 class="team-member-time">0:00:00.000</h2>
+                    </div>
+                </div>
